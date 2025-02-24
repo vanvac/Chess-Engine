@@ -1,0 +1,7 @@
+# ninja log v6
+6	1690	7621242124637040	CMakeFiles/ChessEngine.dir/src/main.cpp.obj.ddi	bf60b342f7e7b254
+1691	1746	7621242141917662	CMakeFiles/ChessEngine.dir/CXX.dd	716f0c1425b79da9
+1691	1746	7621242141917662	C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/ChessEngine.dir/CXXModules.json	716f0c1425b79da9
+1691	1746	7621242141917662	CMakeFiles/ChessEngine.dir/src/main.cpp.obj.modmap	716f0c1425b79da9
+1747	4514	7621242142040484	CMakeFiles/ChessEngine.dir/src/main.cpp.obj	de781eb92ec093f7
+4522	4748	7621242169784474	ChessEngine.exe	f393657f5aba53ae
