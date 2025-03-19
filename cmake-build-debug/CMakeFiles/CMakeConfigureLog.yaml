@@ -4,16 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.26100 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -28,14 +28,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is Clang, found in:
-        C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe
+        C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/3.31.4/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -50,19 +50,19 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is Clang, found in:
-        C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe
+        C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/3.31.4/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jg309x"
-      binary: "C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jg309x"
+      source: "C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfmcxp"
+      binary: "C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfmcxp"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/llvm-mingw/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -72,40 +72,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jg309x'
+        Change Dir: 'C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfmcxp'
         
-        Run Build Command(s): H:/tools/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_d03fc
-        [1/2] C:\\llvm-mingw\\bin\\clang.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_d03fc.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj -c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): H:/tools/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_f46fa
+        [1/2] C:\\llvm-mingw\\bin\\clang.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_f46fa.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj -c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c
         clang version 19.1.7 (https://github.com/llvm/llvm-project.git cd708029e0b2869e80abe31ddb175f7c35361f90)
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/llvm-mingw/bin
         Configuration file: C:/llvm-mingw/bin/x86_64-w64-windows-gnu.cfg
          (in-process)
-         "C:/llvm-mingw/bin/clang-19.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jg309x -v -fcoverage-compilation-dir=C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jg309x -resource-dir C:/llvm-mingw/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_d03fc.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/llvm-mingw/lib/clang/19/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/usr/include -internal-isystem C:/llvm-mingw/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj -x c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+         "C:/llvm-mingw/bin/clang-19.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfmcxp -v -fcoverage-compilation-dir=C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfmcxp -resource-dir C:/llvm-mingw/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_f46fa.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/llvm-mingw/lib/clang/19/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/usr/include -internal-isystem C:/llvm-mingw/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj -x c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c
         clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-w64-mingw32
         ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/include"
         ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/usr/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         C:/llvm-mingw/lib/clang/19/include\x0d
+         C:/llvm-mingw/lib/clang/19/include
          C:/llvm-mingw/include\x0d
         End of search list.\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\llvm-mingw\\bin\\clang.exe  -v -Wl,-v CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj -o cmTC_d03fc.exe -Wl,--out-implib,libcmTC_d03fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\llvm-mingw\\bin\\clang.exe  -v -Wl,-v CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj -o cmTC_f46fa.exe -Wl,--out-implib,libcmTC_f46fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         clang version 19.1.7 (https://github.com/llvm/llvm-project.git cd708029e0b2869e80abe31ddb175f7c35361f90)
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/llvm-mingw/bin
         Configuration file: C:/llvm-mingw/bin/x86_64-w64-windows-gnu.cfg
-         "C:/llvm-mingw/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_d03fc.exe C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o -LC:/llvm-mingw/x86_64-w64-mingw32/lib -LC:/llvm-mingw/x86_64-w64-mingw32/mingw/lib -LC:/llvm-mingw/lib -LC:/llvm-mingw/lib/clang/19/lib/windows -v CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d03fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/llvm-mingw/x86_64-w64-mingw32/lib/crtend.o\x0d
+         "C:/llvm-mingw/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_f46fa.exe C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o -LC:/llvm-mingw/x86_64-w64-mingw32/lib -LC:/llvm-mingw/x86_64-w64-mingw32/mingw/lib -LC:/llvm-mingw/lib -LC:/llvm-mingw/lib/clang/19/lib/windows -v CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_f46fa.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/llvm-mingw/x86_64-w64-mingw32/lib/crtend.o\x0d
         LLD 19.1.7 (https://github.com/llvm/llvm-project.git cd708029e0b2869e80abe31ddb175f7c35361f90) (compatible with GNU linkers)
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -122,45 +122,45 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jg309x']
+        ignore line: [Change Dir: 'C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfmcxp']
         ignore line: []
-        ignore line: [Run Build Command(s): H:/tools/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_d03fc]
-        ignore line: [[1/2] C:\\llvm-mingw\\bin\\clang.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_d03fc.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj -c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): H:/tools/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_f46fa]
+        ignore line: [[1/2] C:\\llvm-mingw\\bin\\clang.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_f46fa.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj -c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
         ignore line: [clang version 19.1.7 (https://github.com/llvm/llvm-project.git cd708029e0b2869e80abe31ddb175f7c35361f90)]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/llvm-mingw/bin]
         ignore line: [Configuration file: C:/llvm-mingw/bin/x86_64-w64-windows-gnu.cfg]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/llvm-mingw/bin/clang-19.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jg309x -v -fcoverage-compilation-dir=C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jg309x -resource-dir C:/llvm-mingw/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_d03fc.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/llvm-mingw/lib/clang/19/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/usr/include -internal-isystem C:/llvm-mingw/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj -x c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "C:/llvm-mingw/bin/clang-19.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfmcxp -v -fcoverage-compilation-dir=C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfmcxp -resource-dir C:/llvm-mingw/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_f46fa.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/llvm-mingw/lib/clang/19/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/usr/include -internal-isystem C:/llvm-mingw/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj -x c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-w64-mingw32]
         ignore line: [ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/include"]
         ignore line: [ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/usr/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ C:/llvm-mingw/lib/clang/19/include\x0d]
+        ignore line: [ C:/llvm-mingw/lib/clang/19/include]
         ignore line: [ C:/llvm-mingw/include\x0d]
         ignore line: [End of search list.\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\llvm-mingw\\bin\\clang.exe  -v -Wl -v CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj -o cmTC_d03fc.exe -Wl --out-implib libcmTC_d03fc.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\llvm-mingw\\bin\\clang.exe  -v -Wl -v CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj -o cmTC_f46fa.exe -Wl --out-implib libcmTC_f46fa.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [clang version 19.1.7 (https://github.com/llvm/llvm-project.git cd708029e0b2869e80abe31ddb175f7c35361f90)]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/llvm-mingw/bin]
         ignore line: [Configuration file: C:/llvm-mingw/bin/x86_64-w64-windows-gnu.cfg]
-        link line: [ "C:/llvm-mingw/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_d03fc.exe C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o -LC:/llvm-mingw/x86_64-w64-mingw32/lib -LC:/llvm-mingw/x86_64-w64-mingw32/mingw/lib -LC:/llvm-mingw/lib -LC:/llvm-mingw/lib/clang/19/lib/windows -v CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d03fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/llvm-mingw/x86_64-w64-mingw32/lib/crtend.o\x0d]
+        link line: [ "C:/llvm-mingw/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_f46fa.exe C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o -LC:/llvm-mingw/x86_64-w64-mingw32/lib -LC:/llvm-mingw/x86_64-w64-mingw32/mingw/lib -LC:/llvm-mingw/lib -LC:/llvm-mingw/lib/clang/19/lib/windows -v CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_f46fa.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/llvm-mingw/x86_64-w64-mingw32/lib/crtend.o\x0d]
           arg [C:/llvm-mingw/bin/ld.lld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_d03fc.exe] ==> ignore
+          arg [cmTC_f46fa.exe] ==> ignore
           arg [C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o] ==> obj [C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o]
           arg [C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o] ==> obj [C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o]
           arg [-LC:/llvm-mingw/x86_64-w64-mingw32/lib] ==> dir [C:/llvm-mingw/x86_64-w64-mingw32/lib]
@@ -168,9 +168,9 @@ events:
           arg [-LC:/llvm-mingw/lib] ==> dir [C:/llvm-mingw/lib]
           arg [-LC:/llvm-mingw/lib/clang/19/lib/windows] ==> dir [C:/llvm-mingw/lib/clang/19/lib/windows]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_d03fc.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_f46fa.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_d03fc.dll.a] ==> ignore
+          arg [libcmTC_f46fa.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -211,9 +211,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "C:/llvm-mingw/bin/ld.lld" "-v"
@@ -221,14 +221,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zb0nth"
-      binary: "C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zb0nth"
+      source: "C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-seon8m"
+      binary: "C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-seon8m"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/llvm-mingw/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -239,19 +239,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zb0nth'
+        Change Dir: 'C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-seon8m'
         
-        Run Build Command(s): H:/tools/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_9d2a5
-        [1/2] C:\\llvm-mingw\\bin\\clang++.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_9d2a5.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj -c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): H:/tools/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_155a5
+        [1/2] C:\\llvm-mingw\\bin\\clang++.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_155a5.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj -c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
         clang version 19.1.7 (https://github.com/llvm/llvm-project.git cd708029e0b2869e80abe31ddb175f7c35361f90)
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/llvm-mingw/bin
         Configuration file: C:/llvm-mingw/bin/x86_64-w64-windows-gnu.cfg
          (in-process)
-         "C:/llvm-mingw/bin/clang-19.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zb0nth -v -fcoverage-compilation-dir=C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zb0nth -resource-dir C:/llvm-mingw/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_9d2a5.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/llvm-mingw/include/c++/v1 -internal-isystem C:/llvm-mingw/lib/clang/19/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/usr/include -internal-isystem C:/llvm-mingw/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj -x c++ H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+         "C:/llvm-mingw/bin/clang-19.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-seon8m -v -fcoverage-compilation-dir=C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-seon8m -resource-dir C:/llvm-mingw/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_155a5.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/llvm-mingw/include/c++/v1 -internal-isystem C:/llvm-mingw/lib/clang/19/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/usr/include -internal-isystem C:/llvm-mingw/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj -x c++ H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-w64-mingw32
-        ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/include/c++/v1"\x0d
+        ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/include/c++/v1"
         ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/include"\x0d
         ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/usr/include"\x0d
         #include "..." search starts here:\x0d
@@ -260,21 +260,21 @@ events:
          C:/llvm-mingw/lib/clang/19/include\x0d
          C:/llvm-mingw/include\x0d
         End of search list.\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\llvm-mingw\\bin\\clang++.exe  -v -Wl,-v CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_9d2a5.exe -Wl,--out-implib,libcmTC_9d2a5.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\llvm-mingw\\bin\\clang++.exe  -v -Wl,-v CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_155a5.exe -Wl,--out-implib,libcmTC_155a5.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         clang version 19.1.7 (https://github.com/llvm/llvm-project.git cd708029e0b2869e80abe31ddb175f7c35361f90)
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/llvm-mingw/bin
         Configuration file: C:/llvm-mingw/bin/x86_64-w64-windows-gnu.cfg
-         "C:/llvm-mingw/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_9d2a5.exe C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o -LC:/llvm-mingw/x86_64-w64-mingw32/lib -LC:/llvm-mingw/x86_64-w64-mingw32/mingw/lib -LC:/llvm-mingw/lib -LC:/llvm-mingw/lib/clang/19/lib/windows -v CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_9d2a5.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/llvm-mingw/x86_64-w64-mingw32/lib/crtend.o\x0d
+         "C:/llvm-mingw/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_155a5.exe C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o -LC:/llvm-mingw/x86_64-w64-mingw32/lib -LC:/llvm-mingw/x86_64-w64-mingw32/mingw/lib -LC:/llvm-mingw/lib -LC:/llvm-mingw/lib/clang/19/lib/windows -v CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_155a5.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/llvm-mingw/x86_64-w64-mingw32/lib/crtend.o\x0d
         LLD 19.1.7 (https://github.com/llvm/llvm-project.git cd708029e0b2869e80abe31ddb175f7c35361f90) (compatible with GNU linkers)
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -293,26 +293,26 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zb0nth']
+        ignore line: [Change Dir: 'C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-seon8m']
         ignore line: []
-        ignore line: [Run Build Command(s): H:/tools/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_9d2a5]
-        ignore line: [[1/2] C:\\llvm-mingw\\bin\\clang++.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_9d2a5.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj -c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): H:/tools/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_155a5]
+        ignore line: [[1/2] C:\\llvm-mingw\\bin\\clang++.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_155a5.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj -c H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 19.1.7 (https://github.com/llvm/llvm-project.git cd708029e0b2869e80abe31ddb175f7c35361f90)]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/llvm-mingw/bin]
         ignore line: [Configuration file: C:/llvm-mingw/bin/x86_64-w64-windows-gnu.cfg]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/llvm-mingw/bin/clang-19.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zb0nth -v -fcoverage-compilation-dir=C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zb0nth -resource-dir C:/llvm-mingw/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_9d2a5.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/llvm-mingw/include/c++/v1 -internal-isystem C:/llvm-mingw/lib/clang/19/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/usr/include -internal-isystem C:/llvm-mingw/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj -x c++ H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "C:/llvm-mingw/bin/clang-19.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-seon8m -v -fcoverage-compilation-dir=C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-seon8m -resource-dir C:/llvm-mingw/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_155a5.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/llvm-mingw/include/c++/v1 -internal-isystem C:/llvm-mingw/lib/clang/19/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/include -internal-isystem C:/llvm-mingw/x86_64-w64-mingw32/usr/include -internal-isystem C:/llvm-mingw/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj -x c++ H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-w64-mingw32]
-        ignore line: [ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/include/c++/v1"\x0d]
+        ignore line: [ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/include/c++/v1"]
         ignore line: [ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/include"\x0d]
         ignore line: [ignoring nonexistent directory "C:/llvm-mingw/x86_64-w64-mingw32/usr/include"\x0d]
         ignore line: [#include "..." search starts here:\x0d]
@@ -321,19 +321,19 @@ events:
         ignore line: [ C:/llvm-mingw/lib/clang/19/include\x0d]
         ignore line: [ C:/llvm-mingw/include\x0d]
         ignore line: [End of search list.\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\llvm-mingw\\bin\\clang++.exe  -v -Wl -v CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_9d2a5.exe -Wl --out-implib libcmTC_9d2a5.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\llvm-mingw\\bin\\clang++.exe  -v -Wl -v CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_155a5.exe -Wl --out-implib libcmTC_155a5.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [clang version 19.1.7 (https://github.com/llvm/llvm-project.git cd708029e0b2869e80abe31ddb175f7c35361f90)]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/llvm-mingw/bin]
         ignore line: [Configuration file: C:/llvm-mingw/bin/x86_64-w64-windows-gnu.cfg]
-        link line: [ "C:/llvm-mingw/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_9d2a5.exe C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o -LC:/llvm-mingw/x86_64-w64-mingw32/lib -LC:/llvm-mingw/x86_64-w64-mingw32/mingw/lib -LC:/llvm-mingw/lib -LC:/llvm-mingw/lib/clang/19/lib/windows -v CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_9d2a5.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/llvm-mingw/x86_64-w64-mingw32/lib/crtend.o\x0d]
+        link line: [ "C:/llvm-mingw/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_155a5.exe C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o -LC:/llvm-mingw/x86_64-w64-mingw32/lib -LC:/llvm-mingw/x86_64-w64-mingw32/mingw/lib -LC:/llvm-mingw/lib -LC:/llvm-mingw/lib/clang/19/lib/windows -v CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_155a5.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/llvm-mingw/x86_64-w64-mingw32/lib/crtend.o\x0d]
           arg [C:/llvm-mingw/bin/ld.lld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_9d2a5.exe] ==> ignore
+          arg [cmTC_155a5.exe] ==> ignore
           arg [C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o] ==> obj [C:/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o]
           arg [C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o] ==> obj [C:/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o]
           arg [-LC:/llvm-mingw/x86_64-w64-mingw32/lib] ==> dir [C:/llvm-mingw/x86_64-w64-mingw32/lib]
@@ -341,9 +341,9 @@ events:
           arg [-LC:/llvm-mingw/lib] ==> dir [C:/llvm-mingw/lib]
           arg [-LC:/llvm-mingw/lib/clang/19/lib/windows] ==> dir [C:/llvm-mingw/lib/clang/19/lib/windows]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_9d2a5.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_155a5.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_9d2a5.dll.a] ==> ignore
+          arg [libcmTC_155a5.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -385,9 +385,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "H:/tools/CLion/bin/cmake/win/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "C:/llvm-mingw/bin/ld.lld" "-v"

@@ -3,4 +3,6 @@ project(ChessEngine)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(ChessEngine src/main.cpp)
+add_executable(ChessEngine src/main.cpp
+        src/position.cpp
+        src/bitboard.h)

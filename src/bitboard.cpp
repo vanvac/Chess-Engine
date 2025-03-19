@@ -3,9 +3,22 @@
 #include <vector>
 
 class BitBoard{
-  std::vector<int64_t>  whitePawnBitBoard, whiteRookBitBoard, whiteBishopBitBoard, whiteQueenBitBoard, whiteKingBitBoard,
-                        blackPawnBitBoard, blackRookBitBoard, blackBishopBitBoard, blackQueenBitBoard, blackKingBitBoard;
+  // piece bitboards
+  uint64_t peiceBitBoard[12]= {};
+
+  // attack bitboards
+  uint64_t whiteAttackBitBoard, blackAttackBitBoard,
+          whitePawnAttackBitBoard, blackPawnAttackBitBoard,
+          whiteKnightAttackBitBoard, blackKnightAttackBitBoard,
+          whiteBishopAttackBitBoard, blackBishopAttackBitBoard,
+          whiteRookAttackBitBoard, blackRookAttackBitBoard,
+          whiteQueenAttackBitBoard, blackQueenAttackBitBoard,
+          whiteKingAttackBitBoard, blackKingAttackBitBoard;
+          ;
+  // fuck enpassant
+  uint64_t whiteEnpassant, blackEnpassant;
+
+  // castle rights
+  uint8_t castleRights;
+
 };
-
-
-

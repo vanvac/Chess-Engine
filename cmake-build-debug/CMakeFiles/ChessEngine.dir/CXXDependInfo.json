@@ -5,14 +5,28 @@
 	"compiler-simulate-id" : "",
 	"config" : "Debug",
 	"cxx-modules" : {},
-	"dir-cur-bld" : "C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug",
-	"dir-cur-src" : "C:/Users/Vachan/Documents/code/cstuff/Chess-Engine",
-	"dir-top-bld" : "C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug",
-	"dir-top-src" : "C:/Users/Vachan/Documents/code/cstuff/Chess-Engine",
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/Vachan/Documents/code/c++/Chess-Engine",
+	"dir-top-bld" : "C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug",
+	"dir-top-src" : "C:/Users/Vachan/Documents/code/c++/Chess-Engine",
 	"exports" : [],
 	"forward-modules-from-target-dirs" : [],
 	"include-dirs" : [],
 	"language" : "CXX",
 	"linked-target-dirs" : [],
-	"module-dir" : "C:/Users/Vachan/Documents/code/cstuff/Chess-Engine/cmake-build-debug/CMakeFiles/ChessEngine.dir"
+	"module-dir" : "C:/Users/Vachan/Documents/code/c++/Chess-Engine/cmake-build-debug/CMakeFiles/ChessEngine.dir",
+	"sources" : 
+	{
+		"CMakeFiles/ChessEngine.dir/src/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/Vachan/Documents/code/c++/Chess-Engine/src/main.cpp"
+		},
+		"CMakeFiles/ChessEngine.dir/src/position.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/Vachan/Documents/code/c++/Chess-Engine/src/position.cpp"
+		}
+	}
 }
